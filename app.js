@@ -58,6 +58,7 @@ app.use(function(err, req, res, next) {
 
 
 //Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/DevDB');
+//mongoose.connect('mongodb://localhost:27017/DevDB');
+mongoose.connect('mongodb://userSAC:jhwse1pDfJxmbHCP@localhost:27017/sampledb');
 
 module.exports = app;
